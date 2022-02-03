@@ -36,8 +36,7 @@ function suma(x, y) {
   // "x" e "y" son números
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código:
-  return a+b;
-  
+  return x+y;
 }
 
 function resta(x, y) {
@@ -113,7 +112,7 @@ function esPar(num) {
   // Devuelve "true" si "num" es par
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (num&2===0)
+  if (num%2==0)
        return true;
        else return false;
       
@@ -124,7 +123,7 @@ function esImpar(num) {
   // Devuelve "true" si "num" es impar
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (num&2!==0)
+  if (num%2!==0)
        return true;
        else return false;
   
@@ -236,7 +235,7 @@ function deEuroAdolar(euro){
   //Supongamos que 1 euro equivale a 1.20 dólares. Escribe un programa que reciba
   //como parámetro un número de euros y calcule el cambio en dólares.
   //Escribe tu código aquí
-  return euro*1,2;
+  return euro*1.2;
 
   
 }
