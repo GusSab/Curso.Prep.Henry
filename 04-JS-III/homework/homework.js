@@ -121,12 +121,12 @@ function multiplicarArgumentos() {
   // Usa la palabra clave `arguments` para multiplicar todos los argumentos y devolver el producto
   // Si no se pasan argumentos devuelve 0. Si se pasa un argumento, simplemente devuélvelo
   // Escribe tu código aquí:
-  
-   var prod = arguments[0];
+;
+   var prod = 1;
    if (arguments.length===0) return 0;
    if (arguments.length===1) return arguments[0];
 
-   for (i=1;i<arguments.length;i++)
+   for (i=0;i<arguments.length;i++)
       prod=prod*arguments[i];
       
    return prod;
@@ -138,7 +138,7 @@ function cuentoElementos(arreglo){
   //Escribe tu código aquí
   var cont = 0;
   for (i=0;i<arreglo.length;i++)
-    if (arreglo[1]>18)  cont++;
+    if (arreglo[i]>18)  cont++;
   return cont;
 
 }
